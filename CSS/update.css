@@ -1,0 +1,97 @@
+/*NAVIGATION BAR */
+li {
+    display: inline;
+}
+#nav2{
+    float: left;
+    margin-top: -77px;
+    margin-left: 150px;
+}
+#nav1{
+    background-color: brown;
+    height: 60pt;
+    width: 100%;
+}
+.nav4{
+    font-size: 19px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: bisque;
+}
+a.nav4:hover{
+    background-color: rgba(207, 52, 52, 0.904)
+}
+#logo{
+    margin-top: .1pt;
+    height: 61pt;
+    width: 105pt;
+}
+/*NAVIGATION BAR CSS ENDED*/
+
+/*BODY*/
+.bg {
+    background-image: linear-gradient(to bottom right, #181818, #70706f);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*BODY ENDED*/
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blanchedalmond;
+    font-size: 35px;
+}
+ #form{
+    margin-top: 60px;
+    height: 85%;
+    color: blanchedalmond;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+fieldset{
+    width: 45%;
+}
+/*
+#lab1{
+    margin-left: -50px;
+}
+#lab2{
+    margin-left: -25px;
+}
+#lab3{
+    margin-left: -85px;
+}
+#in1{
+    margin-right: -30px;
+}
+#in2{
+    margin-right: -30px;
+}
+#in3{
+    margin-right: -30px;
+}
+*/
+/*FOOTER*/
+#footer{
+    
+    background-color: brown;
+    height: 50px;
+}
+
+#btn{
+    background-color: darkgrey;
+    width: 100px;
+    height: 31px;
+    border-width: 5px;
+    border-color: wheat;
+    color: darkslategray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+input{
+    width: 250px;
+    height: 21px;
+}

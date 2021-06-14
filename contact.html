@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <title>Contact</title>
+</head>
+<body class="bg">
+    <!--NAVIGATION BAR-->
+    <nav id="nav1">
+        <div id="navid">
+        <img id="logo" src="relogo.jpg" height="100px" width="150px">
+        <ul>
+            <div id="nav2">
+            <li class="nav3">
+                <a class="nav4" href="home.php">  Home </a>
+            </li>
+            <li class="nav3">
+                <a class="nav4" href="bikes.html">  Bikes  </a>
+            </li>
+            <li class="nav3">
+                <a class="nav4" href="contact.html">  Contact  </a>
+            </li>
+            <li class="nav3">
+                <a class="nav4" href="about.html">  About  </a>
+            </li>
+            <li class="nav">
+                <a class="nav4" href="admin.html">  Admin Dashboard  </a>
+            </li>
+        </div>
+        </ul>
+        </div>
+    </nav>
+    <!--NAVIGATION BAR ENDED-->
+    <center>
+        <div id="frm">
+    <h1>Contact Us</h1>
+    <fieldset>
+    <form action="contact.php" method="POST">
+        <label id="lab1">Name : </label><br>
+        <input type="text" name="name" required><br><br>
+        <label id="lab2">Company : </label><br>
+        <input type="text" name="company" required><br><br>
+        <label id="lab3">Email : </label><br>
+        <input type="email" name="email" required><br><br>
+        <label id="lab4">Phone : </label><br>
+        <input type="tel" name="phone" required><br><br>
+        <label id="lab5">Message : </label><br>
+        <input type="text" name="message" required><br><br>
+        <input type="submit" value="SUBMIT" name="submit" class="btn">
+        <input type="reset" value="RESET" name="reset" class="btn">
+    </form>
+    </fieldset>
+    </div>
+    </center>
+    <footer id="footer">
+        <center><p id="footer1">© Royal Enfield Showroom Kochi</p></center>
+    </footer>
+</body>
+</html>

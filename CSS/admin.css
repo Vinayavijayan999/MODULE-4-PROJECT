@@ -1,0 +1,66 @@
+body, html {
+    height: 100%;
+  }
+
+.bg {
+    /*background-image: linear-gradient(to bottom right, #181818, #70706f);*/
+    background-image: url(../Gallery/bgv.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*NAVIGATION BAR */
+li {
+    display: inline;
+}
+#nav2{
+    float: left;
+    margin-top: -77px;
+    margin-left: 150px;
+}
+#nav1{
+    background-color: brown;
+    height: 60pt;
+    width: 100%;
+}
+.nav4{
+    font-size: 19px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: bisque;
+}
+a.nav4:hover{
+    background-color: rgba(207, 52, 52, 0.904)
+}
+#logo{
+    margin-top: .1pt;
+    height: 61pt;
+    width: 105pt;
+}
+/*NAVIGATION BAR CSS ENDED*/
+#menu1{
+    margin-top: 160px;
+}
+a.options{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: bisque;
+}
+button{
+    background-color: #70706f;
+    border-style: groove;
+    border-width: 10px;
+}
+/*FOOTER*/
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: brown;
+    margin-left: -6pt;
+}
