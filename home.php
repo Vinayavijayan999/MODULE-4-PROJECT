@@ -20,7 +20,7 @@ session_start();
     <!--NAVIGATION BAR-->
     <nav id="nav1">
         <div id="navid">
-        <img id="logo" src="relogo.jpg" height="100px" width="150px">
+        <img id="logo" src="Gallery/relogo.jpg" height="100px" width="150px">
         <ul>
             <div id="nav2">
             <li class="nav3">
