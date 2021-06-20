@@ -9,9 +9,10 @@ $redirect = header("Location: delete.php");
 
 if ($data)
 {
-    //echo "<script type='text/javascript'> 
-    //alert('Deleted Successfully!') 
-    //</script>";
+    echo "<script type='text/javascript'> 
+    alert('Deleted Successfully!') 
+    </script>";
+    
     
 }
 else

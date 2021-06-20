@@ -76,12 +76,6 @@ include("connection.php");
                 
             }
         }
-        else
-        {
-            echo "<script type='text/javascript'> 
-            alert('Not successful!') 
-            </script>";
-        }
         ?>
         </table>
         </center>
